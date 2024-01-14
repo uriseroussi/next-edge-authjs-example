@@ -1,6 +1,6 @@
 # Next Auth.js Example
 
-This is an example of how to use Auth.js in Next.js for OAuth and Magic Link authentication.
+This is an example of how to use Auth.js in Next.js for OAuth and Magic Link authentication on the Edge runtime.
 
 ## Install dependencies
 
@@ -16,6 +16,9 @@ ENVIRONMENT="development"
 
 # Database
 MONGODB_CONNECTION_STRING="your-mongodb-connection-string"
+ATLAS_DATA_API_SOURCE="your-atlas-data-source-name"
+ATLAS_DATA_API_ENDPOINT="your-atlas-data-api-endpoint-url"
+ATLAS_DATA_API_KEY="your-atlas-data-api-key"
 
 # Auth.js
 AUTH_SECRET="your-at-least-32-characters-long-secret"
@@ -28,6 +31,7 @@ SMTP_PASSWORD="your-brevo-key"
 SMTP_HOST=smtp-relay.sendinblue.com
 SMTP_PORT=587
 SMTP_FROM="your-verified-sender"
+SMTP_API_KEY="your-api-key"
 ```
 
 ## Run

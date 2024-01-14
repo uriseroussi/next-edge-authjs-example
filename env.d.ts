@@ -9,6 +9,10 @@ declare namespace NodeJS {
     SMTP_HOST: string;
     SMTP_PORT: string;
     SMTP_FROM: string;
+    SMTP_API_KEY: string;
     MONGODB_CONNECTION_STRING: string;
+    ATLAS_DATA_API_SOURCE: string;
+    ATLAS_DATA_API_ENDPOINT: string;
+    ATLAS_DATA_API_KEY: string;
   }
 }
